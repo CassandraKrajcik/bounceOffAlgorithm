@@ -1,8 +1,8 @@
-/*
+/!
 p5.play
-by Paolo Pedercini/molleindustria, 2015
+by!Paolo Pedercini/molleindustria, 2015
 http://molleindustria.org/
-*/
+ /
 
 (function(root, factory) {
 if (typeof define === 'function' && define.amd)
@@ -6740,3 +6740,4 @@ p5.prototype._warn = function(message) {
   };
 
 }));
+ 
