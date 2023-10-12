@@ -1,6 +1,6 @@
-/!
+/ 
 p5.play
-by!Paolo Pedercini/molleindustria, 2015
+by Paolo Pedercini/molleindustria, 2015
 http://molleindustria.org/
  /
 
@@ -12,7 +12,7 @@ factory(require('@code-dot-org/p5'));
 else
 factory(root.p5);
 }(this, function(p5) {
-/**
+/!*
  * p5.play is a library for p5.js to facilitate the creation of games and gamelike
  * projects.
  *
@@ -1419,7 +1419,7 @@ deltaTime = ((now - then) / 1000)/INTERVAL_60; // seconds since last frame
    * collisions or overlappings with other sprites and mouse interactions.
    *
    * To create a Sprite, use
-   * {{#crossLink "p5.play/createSprite:method"}}{{/crossLink}}.
+   * {{!crossLink "p5.play/createSprite:method"}}{{/crossLink}}.
    *
    * @class Sprite
    */
@@ -2543,7 +2543,7 @@ function Sprite(pInst, _x, _y, _w, _h) {
   };
 
   /**
-   * Alias for <a href='#method-remove'>remove()</a>
+   * Alias for <a href='*method-remove'>remove()</a>
    *
    * @method destroy
    */
@@ -6740,4 +6740,4 @@ p5.prototype._warn = function(message) {
   };
 
 }));
- 
+  
