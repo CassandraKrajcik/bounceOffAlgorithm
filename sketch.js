@@ -1,4 +1,4 @@
-var fixedRect, movingRect;
+var*fixedRect, movingRect;
 
 function setup() {
   createCanvas(1200,800);
@@ -27,4 +27,4 @@ function draw() {
     fixedRect.velocityY = fixedRect.velocityY * (-1);
   }
   drawSprites();
-}
+} 
